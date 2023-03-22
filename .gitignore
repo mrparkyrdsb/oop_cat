@@ -7,3 +7,4 @@
 /.upm
 /.config
 venv/
+__pycache__/

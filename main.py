@@ -1,4 +1,5 @@
 # Main.py
+# from FILENAME_WITHOUT_EXTENSION import CLASSNAME
 from cat import Cat # Cat class from cat.py
 from cat import ScratchPost # ScratchPost class from cat.py
 

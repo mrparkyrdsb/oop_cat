@@ -1,9 +1,9 @@
 # Main.py
-from cat import Cat
-from cat import ScratchPost
+from cat import Cat # Cat class from cat.py
+from cat import ScratchPost # ScratchPost class from cat.py
 
-post = ScratchPost()
-cat1 = Cat('Cheetos', 'Tabby', 'Orange')
+post = ScratchPost() # a scratchpost object (class instance)
+cat1 = Cat('Cheetos', 'Tabby', 'Orange') # a cat object
 
 # cat data
 print(cat1)
@@ -12,11 +12,12 @@ print(cat1)
 print(post)
 
 # is cat1 hungry?
-print(cat1.is_hungry)
+print(cat1.is_hungry) # accessing an attribute: .is_hungry
 cat1.eat('tuna')
 
 # does cat1 need to scratch?
-print(cat1.wants_to_scratch)
-cat1.scratch(post)
+print(cat1.wants_to_scratch) # accessing an attribute ._wants_to_scratch
+cat1.scratch(post) # cat object interacting with a post object
 
+# rechecking post data
 print(post)
